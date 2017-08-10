@@ -21,16 +21,15 @@ button.addEventListener("click", function (concatInnerHTML){ // creating listene
             console.log(recipes.length); // this logs the length to make sure you return the same amount (10 in this case)
 
             // i should have my for loop here to look over the data in recipes
-            for (i = 0; i < recipes.length; i++){
+            for (i = 0; i < 8; i++){
                 let recipe = recipes[i];
                 function recipePage(recipe){
                     let html =`
                         <div>
                             <div class = "images" style = "background-image: url(${recipe.thumbnail})"></div>
                             <ul>
-                                <li>${recipe.title}</li>
-                                <li>${recipe.ingredients}</li>
-                                <li>${recipe.href}</li>
+                                <li><span>Name of Recipe:  </span><a href="${recipe.href}">${recipe.title}</a></li>
+                                <li><span>Ingredients:  </span>${recipe.ingredients}</li>
                             </ul>
                         </div>
                     `;

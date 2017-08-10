@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+     background-image: url("https://previews.123rf.com/images/vicushka/vicushka1511/vicushka151100099/48677493-variety-of-vegetables-red-lentil-and-ingredients-for-healthy-cooking-on-rustic-background-top-view-h-Stock-Photo.jpg"); 
+     background-size: cover;
+}
+header {
+    /* background-image: url("http://vignette3.wikia.nocookie.net/dreamworks/images/c/ca/VeggieTales-In-the-House.jpg/revision/latest?cb=20140820074001");
+    background-size: contain; */
+    text-align: center;
+    /* background-color: lightblue;  */
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+#wrapper {
+    color: white;
+}
+p {
+    color: ghostwhite;
+    font-weight: 600;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#containerOfContainers {
+    width: 100%;
+}
+#container {
+    display: flex;
+    width: 400%;
+    flex-wrap: wrap;
+}
+.images {
+    height: 110px;
+    width: 250px;
+    padding-left: 50px;
+    margin-left: 40px;
+}
+div {
+    width: 25%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.divs {
+
+}
+ul {
+    list-style: none;
+    color: white;
+    font-weight: 600;
+}
+a {
+    color: lawngreen;
+}
