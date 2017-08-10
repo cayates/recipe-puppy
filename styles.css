@@ -4,10 +4,7 @@ body {
      background-size: cover;
 }
 header {
-    /* background-image: url("http://vignette3.wikia.nocookie.net/dreamworks/images/c/ca/VeggieTales-In-the-House.jpg/revision/latest?cb=20140820074001");
-    background-size: contain; */
     text-align: center;
-    /* background-color: lightblue;  */
     padding-top: 10px;
     padding-bottom: 30px;
 }
@@ -33,14 +30,13 @@ p {
     width: 250px;
     padding-left: 50px;
     margin-left: 40px;
+    background-size: cover;
+    background-position: center;
 }
 div {
     width: 25%;
     padding-top: 50px;
     padding-bottom: 50px;
-}
-.divs {
-
 }
 ul {
     list-style: none;
